@@ -1,0 +1,40 @@
+Notes on Plot3
+
+Parameters are set A_Lin = 20 and G_Lin = 400;
+
+(too high! - think about the t constant)
+The Plot is the result of channel 1 active from 1 sec to 10 sec
+and channel 2 from 15 sec to 25 sec.
+
+Plot 4:
+
+Just to show what would happen if two channel are inactivated at the same time
+CH1 fires from 1 to 29.
+CH2 fires from 10 to 20
+
+Plot 5:
+
+CH1 fires from 10 to 20
+CH2 fires from 1 to 29
+
+Plot 6
+
+
+CH1 fires from 5 to 15
+CH1 fires from 20 to 30
+
+Here, D2 is deactivated. As you can see, there is not much difference at all!
+For D1 only or D1 and D2, All output channels are at maximum level (1), that is INHIBIT the thalamus
+
+
+For the Surface Dopa-Time:
+
+w_e = 1; w_inh = 0.03; w_minus = 1.02; w_plus = 1;
+w_t = w_s = 1;
+
+system seems to be very unstable. Slight variation
+in the value produce great changes.
+
+Channel1: from 5 to 15.
+Channel2: from 10 to 20
+
